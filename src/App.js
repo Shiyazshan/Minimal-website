@@ -1,24 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import Spotlight from './Components/screens/Spotlight';
+import Minimal from './Components/screens/Minimal';
+import Dark from './Components/screens/Dark';
+import Theme from './Components/screens/Theme';
+import Interface from './Components/screens/Interface';
+import Bussiness from './Components/screens/Bussiness';
+import Questions from './Components/screens/Questions';
+import Footer from './Components/screens/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       <Spotlight />
+       <Minimal />
+       <Dark />
+       <Theme />
+       <Interface />
+       <Bussiness />
+       <Questions />
+       <Footer />
+    </>
   );
 }
 
